@@ -14,39 +14,17 @@ const PORT = process.env.PORT || 8080;
 let data = [
   {
     _id: "6374e91f8266a57210d00222",
-    age: 54,
     name: "Watts Dejesus",
-    address: "287 Nolans Lane, Sardis, West Virginia, 4427",
+    title: "Nodejs Developer Roadmap 2022",
+    story:
+      "Nodejs is a very popular runtime environment for chrome V8 javascript engine. The popularity of nodejs is increasing every day for scalable network applications Nodejs is javascript based and it enables javascript developers to write backend (server) application Nodejs uses event loops that allow nodejs to perform non blocking I/O operationsIn this tutorial, we will look at the tools and languages needed to be known to be a successful nodejs developer",
   },
   {
     _id: "6374e91fb0d03d57f27dfe78",
-    age: 26,
     name: "Kimberley Bradley",
-    address: "280 Barbey Street, Sisquoc, Federated States Of Micronesia, 279",
-  },
-  {
-    _id: "6374e91f25bcc01f2dfdc557",
-    age: 45,
-    name: "Susana Zamora",
-    address: "159 Ridge Court, Bloomington, Tennessee, 1366",
-  },
-  {
-    _id: "6374e91f2a6cdae1921cf1db",
-    age: 54,
-    name: "Wilkinson Jarvis",
-    address: "965 Clarendon Road, Salix, Virgin Islands, 9932",
-  },
-  {
-    _id: "6374e91fc3d44a1e313deb08",
-    age: 90,
-    name: "Hampton Medina",
-    address: "450 Bedford Avenue, Fairfield, New Mexico, 4237",
-  },
-  {
-    _id: "6374e91ff4fe43a173258fef",
-    age: 91,
-    name: "Deanna King",
-    address: "866 Manhattan Court, Croom, Northern Mariana Islands, 4564",
+    title: "React developer roadmap 2022",
+    story:
+      "React is a very popular UI framework for creating user interfaces. There are also so many benefits of using react. With React we can create: Progressive web applications Scalable web applications Reusable components Small to big-scale projects Here in this tutorial, we will discuss which languages and tools you need to learn to become a successful react developer. ",
   },
 ];
 
