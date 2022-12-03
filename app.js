@@ -47,7 +47,7 @@ app.post("/add", (req, res) => {
   let d = req.body;
   d._id = uuidv4();
 
-  data.push(d);
+  data.unshift(d);
 
   res
     .json({
@@ -73,7 +73,7 @@ app.put("/edit/:id", (req, res) => {
 
   let filtered_Data = data.filter((ele) => ele._id != req.params.id);
 
-  filtered_Data.push(d);
+  filtered_Data.unshift(d);
 
   data = filtered_Data;
 
