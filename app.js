@@ -59,6 +59,7 @@ app.post("/add", (req, res) => {
 // delete api
 
 app.delete("/delete/:id", (req, res) => {
+  
   data = data.filter((ele) => ele._id != req.params.id);
   res
     .json({
@@ -68,6 +69,7 @@ app.delete("/delete/:id", (req, res) => {
 });
 
 app.put("/edit/:id", (req, res) => {
+  
   let d = req.body;
   d._id = req.params.id;
 
